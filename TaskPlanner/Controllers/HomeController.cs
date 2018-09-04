@@ -12,7 +12,7 @@ namespace TaskPlanner.Controllers
     {
         public IActionResult Index()
         {
-            return Redirect("http://localhost:4200/taskplanner");
+            return Redirect("https://tfahnbulleh.github.io/Task-Planner/");
         }
 
         public IActionResult Error()

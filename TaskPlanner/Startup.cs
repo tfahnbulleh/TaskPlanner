@@ -55,7 +55,7 @@ namespace TaskPlanner
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowSpecificOrigin",
-                    builder => builder.WithOrigins("http://localhost:4200", "http://localhost:3000").AllowAnyMethod().AllowAnyHeader());
+                    builder => builder.WithOrigins("https://tfahnbulleh.github.io", "http://localhost:4200", "http://localhost:3000").AllowAnyMethod().AllowAnyHeader());
 
             });
 
